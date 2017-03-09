@@ -1,0 +1,35 @@
+    
+<header>
+    <% include ../partials/header %>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+     <h1>Find a food place near you!</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2"></div>
+       <form action="/searchresults" method="GET"  class="col-sm-6" id="foodfinder">
+         <div class="form-group">
+                <label for="locationenter">Enter you location:</label>
+                <input type="text" id="userlocation" name="location" class="form-control" placeholder="Enter your location">
+            </div>
+    
+<div class="form-group">
+                <input type="submit" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</div>     
+    
+  
+    
+<footer>
+    
+    <% include ../partials/footer %>
+</footer>    
+            
+    

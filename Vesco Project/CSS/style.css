@@ -19,11 +19,10 @@ body {
     height: 100%;
 }
 
-p{
+p {
     color: #64707b;
-    font-size:16px;
+    font-size: 16px;
     font-weight: 300;
-    
 }
 
 body {
@@ -106,6 +105,18 @@ h3 {
     color: #41464b;
 }
 
+.btn-blue {
+    border-color: #34c6d3;
+    color: #34c6d3;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    background-color: #34c6d3;
+    color: #fff;
+}
+
+
 /*===========================================
                 ANIMATE
 ============================================*/
@@ -128,20 +139,20 @@ h3 {
     animation-delay: 1s;
 }
 
+
 /*===========================================
                 CONTENT (Generic)
 ============================================*/
 
-.content-box{
-    padding: 60px 0 60px 0;    
+.content-box {
+    padding: 60px 0 60px 0;
 }
 
 .content-title h3 {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    margin:0 0 30px 0;
-    
+    margin: 0 0 30px 0;
 }
 
 .content-title-underline {
@@ -151,16 +162,18 @@ h3 {
     margin: 0 auto 30px auto;
 }
 
+
 /*===========================================
                 SERVICES
 ============================================*/
-.service-item{
+
+.service-item {
     padding: 20px 0 20px 0;
     margin-bottom: 20px;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
-.service-item-icon i{
+.service-item-icon i {
     color: #34c6d3;
     float: left;
     padding: 15px;
@@ -170,12 +183,12 @@ h3 {
     text-align: center;
 }
 
-.service-item:hover .service-item-icon i{
+.service-item:hover .service-item-icon i {
     color: #fff;
     background-color: #34c6d3;
 }
 
-.service-item-title h3{
+.service-item-title h3 {
     font-size: 20px;
     font-weight: 400;
     margin: 0 0 10px 0
@@ -184,4 +197,46 @@ h3 {
 .service-item-desc p {
     margin: 0;
     padding-left: 85px;
+}
+
+
+/*===========================================
+                ABOUT
+============================================*/
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../img/bg-about.jpg);
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
+}
+
+#about-content-box {
+    float: left;
+    height: 700px;
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about-desc p {
+    margin-bottom: 30px;
 }

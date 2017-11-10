@@ -11,7 +11,6 @@
     
 ============================================*/
 
-
 /* General CSS */
 
 html,
@@ -248,6 +247,7 @@ h3 {
 /*===========================================
                 OUR WORK
 ============================================*/
+
 .row.no-gutters [class*=col-] {
     padding-left: 0;
     padding-right: 0;
@@ -269,12 +269,13 @@ h3 {
 /*===========================================
                 TEAM
 ============================================*/
+
 .team-member {
-    margin: 0 15px;  
+    margin: 0 15px;
 }
 
 .team-member-info {
-    padding: 10px 0 30px 0;   
+    padding: 10px 0 30px 0;
 }
 
 h4.team-member-name {
@@ -290,12 +291,13 @@ h4.team-member-designation {
     font-weight: 700;
     font-style: italic;
     letter-spacing: 1px;
-    margin-top: 5px;    
+    margin-top: 5px;
 }
 
 /*===========================================
                 SOCIAL
 ============================================*/
+
 .social-list {
     padding-left: 0;
 }
@@ -310,7 +312,7 @@ h4.team-member-designation {
 }
 
 .social-icon i {
-    font-size: 17px;   
+    font-size: 17px;
 }
 
 .icon-gray i {
@@ -330,11 +332,11 @@ h4.team-member-designation {
 }
 
 #testimonials .content-box {
-    background-color: rgba(0,0,0, 0.1);  
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-#customers-testimonials{
-    padding: 50px 0;   
+#customers-testimonials {
+    padding: 50px 0;
 }
 
 .testimonial img {
@@ -356,14 +358,14 @@ h4.team-member-designation {
 }
 
 .testimonial blockquote::before,
-.testimonial blockquote::after{
+.testimonial blockquote::after {
     font-size: 80px;
     font-style: normal;
     line-height: 1;
     width 30px;
     height: 30px;
     position: absolute;
-    
+
 }
 
 .testimonial blockquote::before {
@@ -383,30 +385,64 @@ h4.team-member-designation {
     font-size: 17px;
 }
 
-.testimonial-author p strong{
+.testimonial-author p strong {
     display: block;
 }
 
+/*===========================================
+                PRICING
+============================================*/
 
+.pricing-box {
+    border: 3px solid #34c6d3;
+    padding: 50px 0;
+    margin: 40px 0;
+}
 
+h4.pricing-title {
+    background-color: #34c6d3;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
 
+h3.pricing-value {
+    font-size: 60px;
+    font-weight: 700;
+}
 
+h3.pricing-value sup {
+    font-size: 28px;
+    font-weight: normal;
+    vertical-align: super;
+}
 
+ul.pricing-spec {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 60px 0;
+}
 
+ul.pricing-spec li p {
+    font-weight: 400;
+    text-transform: uppercase;
+}
 
+.pricing-box-lg {
+    padding: 90px 0;
+    margin: 0;
+    background-color: #34c6d3
+}
 
+.pricing-box-lg h4.pricing-title {
+    color: #34c6d3;
+    background-color: #fff;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pricing-box-lg ul.pricing-spec li p {
+    color: #fff;
+}

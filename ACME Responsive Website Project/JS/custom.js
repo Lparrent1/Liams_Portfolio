@@ -82,3 +82,37 @@ $(function () {
     });
 
 });
+
+/*=====================================
+            NAVIGATION
+======================================*/
+// Show/Hide transparent black navigation
+
+$(function(){
+
+   $(window).scroll(function() {
+                                
+       if($(this).scrollTop() < 50 )  {
+           //hide nav
+           $("nav").removeClass("acme-top-nav");
+          
+       } else {
+          // show nav
+           $("nav").addClass("acme-top-nav");
+       }
+    
+});
+
+});
+// Smooth scrolling
+$(function(){
+
+   $("a.smooth-scroll").click(function(event){
+       
+       
+   }); 
+    
+});
+
+
+

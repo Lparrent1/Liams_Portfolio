@@ -595,6 +595,7 @@ form .form-control {
 ============================================*/
 .navbar {
     padding: 20px 0;  
+    transition: all .5s ease-in-out;
 }
 
 .acme-top-nav {
@@ -629,6 +630,9 @@ form .form-control {
 }
 .navbar-collapse {
     max-height: none !important;   
+}
+.acme-top-nav ul.navbar-nav > li.active > a {
+    color: #34c6d3;
 }
 
 

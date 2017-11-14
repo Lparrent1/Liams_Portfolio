@@ -88,31 +88,35 @@ $(function () {
 ======================================*/
 // Show/Hide transparent black navigation
 
-$(function(){
+$(function () {
 
-   $(window).scroll(function() {
-                                
-       if($(this).scrollTop() < 50 )  {
-           //hide nav
-           $("nav").removeClass("acme-top-nav");
-          
-       } else {
-          // show nav
-           $("nav").addClass("acme-top-nav");
-       }
-    
-});
+    $(window).scroll(function () {
+
+        if ($(this).scrollTop() < 50) {
+            //hide nav
+            $("nav").removeClass("acme-top-nav");
+            $("#back-to-top").fadeOut();
+
+        } else {
+            // show nav
+            $("nav").addClass("acme-top-nav");
+            $("#back-to-top").fadeIn();
+        }
+    });
 
 });
 // Smooth scrolling
-$(function(){
+$(function () {
 
-   $("a.smooth-scroll").click(function(event){
-       
-       
-   }); 
-    
+    $("a.smooth-scroll").click(function (event) {
+
+        event.preventDefault();
+
+        // get the section id like #about, #work, #team and etc
+        var section = $(this).attr("href");
+
+        $('html, body').animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250, "easeInOutExpo");
+    });
 });
-
-
-

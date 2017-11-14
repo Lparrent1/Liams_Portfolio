@@ -115,6 +115,17 @@ h3 {
     color: #fff;
 }
 
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+
+}
+
 
 /*===========================================
                 ANIMATE
@@ -593,8 +604,9 @@ form .form-control {
 /*===========================================
                 NAVIGATION
 ============================================*/
+
 .navbar {
-    padding: 20px 0;  
+    padding: 20px 0;
     transition: all .5s ease-in-out;
 }
 
@@ -602,12 +614,15 @@ form .form-control {
     background: rgba(0, 0, 0, 0.7);
     padding: 7px 0;
 }
+
 .acme-nav-wrapper {
-    padding: 0 85px;  
+    padding: 0 85px;
 }
+
 .navbar-nav {
     float: right;
 }
+
 .navbar-nav > li > a {
     color: #fff;
     font-size: 15px;
@@ -615,40 +630,28 @@ form .form-control {
     letter-spacing: 1px;
     font-weight: 700;
 }
-.navbar-nav > li > a:hover,.navbar-nav > li > a:focus {
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
     background: none;
     color: #34c6d3;
-    
+
 }
+
 .navbar-toggle {
     background-color: rgba (0, 0, 0, 0.1);
     border: 1px solid #fff;
     border-radius: 0;
 }
+
 .navbar-toggle .icon-bar {
     background-color: #fff;
 }
+
 .navbar-collapse {
-    max-height: none !important;   
+    max-height: none !important;
 }
+
 .acme-top-nav ul.navbar-nav > li.active > a {
     color: #34c6d3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

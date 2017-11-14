@@ -1,0 +1,43 @@
+/*===========================================
+                Bootstrap Media Queries
+============================================*/
+
+/* Large Devices (Desktop & Laptops) */
+
+@media (min-width: 1200px) {
+
+    /* No CSS rules required */
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* Mobile menu */
+    .navbar {
+
+        background: rgba (0, 0, 0, .7);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    .acme-nav-wrapper {
+        padding: 0;
+    }
+
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Extra Small Devices (Smaller devices) */
+
+@media (max-width: 767px) {}
+
+/* Extra Small Devices (Smaller devices) */
+
+@media (max-width: 320px) {}

@@ -16,11 +16,10 @@
     /* Mobile menu */
     .navbar {
 
-        background: rgba (0, 0, 0, .7);
+        background: rgba(0, 0, 0, .7);
         padding: 0;
     }
-    ,
-    ,
+    
     .navbar-nav {
         float: left;
     }
@@ -37,7 +36,7 @@
     /* Mobile menu */
     .navbar {
 
-        background: rgba (0, 0, 0, .7);
+        background: rgba(0, 0, 0, .7);
         padding: 0;
     }
 
@@ -82,7 +81,7 @@
     /* Mobile menu */
     .navbar {
 
-        background: rgba (0, 0, 0, .7);
+        background: rgba(0, 0, 0, .7);
         padding: 0;
     }
 

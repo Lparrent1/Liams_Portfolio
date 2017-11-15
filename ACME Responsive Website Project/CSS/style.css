@@ -378,7 +378,7 @@ h4.team-member-designation {
     font-size: 80px;
     font-style: normal;
     line-height: 1;
-    width 30px;
+    width: 30px;
     height: 30px;
     position: absolute;
 
@@ -562,7 +562,7 @@ form .form-control {
 ============================================*/
 
 #footer-bottom {
-    background-color: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
     padding: 30px 0;
     margin-top: 60px;
 }
@@ -640,7 +640,7 @@ form .form-control {
 }
 
 .navbar-toggle {
-    background-color: rgba (0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     border: 1px solid #fff;
     border-radius: 0;
 }
